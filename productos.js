@@ -70,146 +70,6 @@ const productos = [
     precio: 140000,
     url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
   },
-  /* {
-    idProd: 1,
-    idProv: 1,
-    nombre: "carretillas",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "hierros",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "pala",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "pico",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  },
-  {
-    idProd: 1,
-    idProv: 1,
-    nombre: "cinta metrica",
-    precio: 140000,
-    url: "https://http2.mlstatic.com/D_NQ_NP_2X_874667-MLA69030271445_042023-F.webp",
-  }, */
 ];
 
 // Recibir valores por parametros ------------------
@@ -217,21 +77,19 @@ const productos = [
 // Obtener los parámetros de la URL
 var parametros = new URLSearchParams(location.search);
 
-// Ejemplo Imprimir los valores de los parámetros
-// console.log(parametros.get("nombre")); // Juan
-//console.log(parametros.get("idProv")); // 25
+//Obtener los valores de los parámetros
 const idProv = parametros.get("idProv");
-console.log("idProv: " + idProv);
+//console.log("idProv: " + idProv);
 
 //------------------------------------
 
 const btnCart = document.querySelector('.container-cart-icon');
 const containerCartProducts = document.querySelector(
-	'.container-cart-products'
+  '.container-cart-products'
 );
 
 btnCart.addEventListener('click', () => {
-	containerCartProducts.classList.toggle('hidden-cart');
+  containerCartProducts.classList.toggle('hidden-cart');
 });
 
 /* ========================= */
@@ -242,11 +100,11 @@ const rowProduct = document.querySelector('.row-product');
 const productsList = document.querySelector('.container-items');
 
 function addItem(nombre, precio, url) {
-	// Crea un elemento `div` para representar el producto en la lista.
-	const div = document.createElement('div');
-	div.setAttribute('class', 'item');
+  // Crea un elemento `div` para representar el producto en la lista.
+  const div = document.createElement('div');
+  div.setAttribute('class', 'item');
 
-	div.innerHTML = `
+  div.innerHTML = `
 		<figure>
 			<img
 				src=${url}
@@ -259,14 +117,14 @@ function addItem(nombre, precio, url) {
 			<button class="btn-add-cart">Añadir al carrito</button>
 		</div>
 	`;
-	
-	productsList.append(div);
+
+  productsList.append(div);
 }
 
-const filtrado = productos.filter((map) => map.idProv === idProv);
+const filtrado = productos.filter((map) => map.idProv == idProv);
 
 filtrado.forEach((producto) => {
-	addItem(producto.nombre, producto.precio, producto.url);
+  addItem(producto.nombre, producto.precio, producto.url);
 });
 
 // Variable de arreglos de Productos
@@ -280,75 +138,75 @@ const cartEmpty = document.querySelector('.cart-empty');
 const cartTotal = document.querySelector('.cart-total');
 
 productsList.addEventListener('click', e => {
-	if (e.target.classList.contains('btn-add-cart')) {
-		const product = e.target.parentElement;
+  if (e.target.classList.contains('btn-add-cart')) {
+    const product = e.target.parentElement;
 
-		const infoProduct = {
-			quantity: 1,
-			title: product.querySelector('h2').textContent,
-			price: product.querySelector('p').textContent,
-		};
+    const infoProduct = {
+      quantity: 1,
+      title: product.querySelector('h2').textContent,
+      price: product.querySelector('p').textContent,
+    };
 
-		const exits = allProducts.some(
-			product => product.title === infoProduct.title
-		);
+    const exits = allProducts.some(
+      product => product.title === infoProduct.title
+    );
 
-		if (exits) {
-			const products = allProducts.map(product => {
-				if (product.title === infoProduct.title) {
-					product.quantity++;
-					return product;
-				} else {
-					return product;
-				}
-			});
-			allProducts = [...products];
-		} else {
-			allProducts = [...allProducts, infoProduct];
-		}
+    if (exits) {
+      const products = allProducts.map(product => {
+        if (product.title === infoProduct.title) {
+          product.quantity++;
+          return product;
+        } else {
+          return product;
+        }
+      });
+      allProducts = [...products];
+    } else {
+      allProducts = [...allProducts, infoProduct];
+    }
 
-		showHTML();
-	}
+    showHTML();
+  }
 });
 
 rowProduct.addEventListener('click', e => {
-	if (e.target.classList.contains('icon-close')) {
-		const product = e.target.parentElement;
-		const title = product.querySelector('p').textContent;
+  if (e.target.classList.contains('icon-close')) {
+    const product = e.target.parentElement;
+    const title = product.querySelector('p').textContent;
 
-		allProducts = allProducts.filter(
-			product => product.title !== title
-		);
+    allProducts = allProducts.filter(
+      product => product.title !== title
+    );
 
-		console.log(allProducts);
+    console.log(allProducts);
 
-		showHTML();
-	}
+    showHTML();
+  }
 });
 
 // Funcion para mostrar  HTML
 const showHTML = () => {
-	if (!allProducts.length) {
-		cartEmpty.classList.remove('hidden');
-		rowProduct.classList.add('hidden');
-		cartTotal.classList.add('hidden');
-	} else {
-		cartEmpty.classList.add('hidden');
-		rowProduct.classList.remove('hidden');
-		cartTotal.classList.remove('hidden');
-	}
+  if (!allProducts.length) {
+    cartEmpty.classList.remove('hidden');
+    rowProduct.classList.add('hidden');
+    cartTotal.classList.add('hidden');
+  } else {
+    cartEmpty.classList.add('hidden');
+    rowProduct.classList.remove('hidden');
+    cartTotal.classList.remove('hidden');
+  }
 
-	// Limpiar HTML
-	rowProduct.innerHTML = '';
+  // Limpiar HTML
+  rowProduct.innerHTML = '';
 
-	let total = 0;
-	let totalOfProducts = 0;
+  let total = 0;
+  let totalOfProducts = 0;
 
-	allProducts.forEach(product => {
-		const containerProduct = document.createElement('div');
-		containerProduct.classList.add('cart-product');
+  allProducts.forEach(product => {
+    const containerProduct = document.createElement('div');
+    containerProduct.classList.add('cart-product');
 
-		containerProduct.innerHTML = `
+    containerProduct.innerHTML = `
             <div class="info-cart-product">
                 <span class="cantidad-producto-carrito">${product.quantity}</span>
                 <p class="titulo-producto-carrito">${product.title}</p>
@@ -370,13 +228,13 @@ const showHTML = () => {
             </svg>
         `;
 
-		rowProduct.append(containerProduct);
+    rowProduct.append(containerProduct);
 
-		total =
-			total + parseInt(product.quantity * product.price.slice(1));
-		totalOfProducts = totalOfProducts + product.quantity;
-	});
+    total =
+      total + parseInt(product.quantity * product.price.slice(1));
+    totalOfProducts = totalOfProducts + product.quantity;
+  });
 
-	valorTotal.innerText = `$${total}`;
-	countProducts.innerText = totalOfProducts;
+  valorTotal.innerText = `$${total}`;
+  countProducts.innerText = totalOfProducts;
 };
